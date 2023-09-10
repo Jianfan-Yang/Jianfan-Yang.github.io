@@ -5164,3 +5164,28 @@ a img {
 .adjusted-img6 {
     margin-top: 120px;
 }
+
+/* On Stage Moments Section Styles */
+#on-stage-moments {
+    background-color: #f9f9f9;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.scrollable-gallery {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap; 
+}
+
+.scrollable-gallery img {
+    max-height: 300px;  /* or any other size that fits your design */
+    margin: 0 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A slight shadow for depth */
+    border-radius: 10px; /* Rounded corners for aesthetics */
+    transition: transform 0.3s; /* Smooth scaling transition */
+}
+
+.scrollable-gallery img:hover {
+    transform: scale(1.1); /* Scale the image up when hovering */
+}
