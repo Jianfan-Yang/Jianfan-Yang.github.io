@@ -5149,6 +5149,14 @@ a img {
     color: #1488CC; 
 }
 
+.adjusted-img1 {
+    margin-top: 50px;
+}
+
+.adjusted-img2 {
+    margin-top: 20px;
+}
+
 .adjusted-img3 {
     margin-top: 200px;
 }
