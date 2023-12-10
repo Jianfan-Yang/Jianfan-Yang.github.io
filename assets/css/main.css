@@ -5197,3 +5197,8 @@ a img {
 .scrollable-gallery img:hover {
     transform: scale(1.1); /* Scale the image up when hovering */
 }
+
+.images-right1 {
+    float: right;
+    width: 45%
+}
